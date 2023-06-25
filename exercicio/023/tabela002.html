@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1;
+            background-color: #6d6666;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+            
+        td.num {
+            text-align: right;
+        }    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>Unidade federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>              <th scope="col" style="width:50px;
+                ">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>35 919 049</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <strong>
+                    <td class="numero">234 838 383</td>
+                </strong>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
